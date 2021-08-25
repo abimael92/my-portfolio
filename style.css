@@ -206,6 +206,7 @@ select {
 	white-space: nowrap;
 	border: none;
 	cursor: pointer;
+	margin-top: 12px;
 }
 
 .btn:hover {
@@ -473,7 +474,7 @@ select {
 	color: #504e70;
 }
 
-.home .intro .social-links { 
+.home .intro .social-links {
 	margin-top: 25px;
 }
 
@@ -552,9 +553,9 @@ select {
 }
 
 .about .about-content .personal-info {
-	-ms-flex: 0 0 60%;
-	flex: 0 0 60%;
-	max-width: 60%;
+	-ms-flex: 0 0 80%;
+	flex: 0 0 80%;
+	max-width: 80%;
 	margin-top: 40px;
 }
 

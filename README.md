@@ -8,7 +8,6 @@
 <li> Responsive Layout</li>
 <li> Smoooth transitions</li>
 <li> HTML5 & CSS3 & JAVASCRIPT</li>
-<li> Cross Browser Compatible</li>
 <li> Font Awesome Icons</li>
 <li> Google Fonts</li>
 </ul>
