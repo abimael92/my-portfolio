@@ -13,13 +13,6 @@
   <link rel="manifest" href="./css/favicon/site.webmanifest">
   <link rel="stylesheet" class="alternate-style" title="red" href="css/skins/red.css" type="text/css">
   <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
-  <script src="https://www.google.com/recaptcha/api.js"></script>
-  <script>
-    function onSubmit("6Le6KiUcAAAAADebVXzOd5zXsuUH6D-52K8J_WXR") {
-      document.getElementById("email_submit").submit();
-    }
-  </script>
-
 </head>
 
 <body class="dark">
@@ -54,7 +47,6 @@
     <!-- Aside End -->
     <!-- Main Content -->
     <div class="main-content">
-
       <!-- Contact Section -->
       <section class="contact section" id="contact">
         <div class="container">
@@ -92,12 +84,9 @@
             </div>
             <!-- contact-info-item end -->
           </div>
-
           <!-- Contact Form -->
           <div class="row">
-
-            
-            <form action="https://formsubmit.co/abimael1992g@gmail.com" id="email_submit" class="contact-form padd-15" method="POST" enctype="multipart/form-data" name="EmailForm">
+            <form action="https://formsubmit.co/abimael1992g@gmail.com" class="contact-form padd-15" method="POST" enctype="multipart/form-data" name="EmailForm">
               <div class="row">
                 <div class="form-item col-6 padd-15">
                   <div class="form-group">
@@ -117,11 +106,12 @@
                   </div>
                 </div>
               </div>
+              <input type="hidden" name="_captcha" value="false">
               <input type="hidden" name="_next" value="https://my-portfolio-rust-sigma.vercel.app/">
               <input type="hidden" name="_autoresponse" value="Thank you!">
               <div class="row">
                 <div class="col-12 padd-15">
-                  <button data-sitekey="6Le6KiUcAAAAADebVXzOd5zXsuUH6D-52K8J_WXR" data-callback='onSubmit' class="btn">Send</button>
+                  <button type="submit" value="Submit" class="btn">Send</button>
                 </div>
               </div>
             </form>
@@ -130,29 +120,10 @@
         </div>
       </section>
       <!-- Contact Section End -->
-
     </div>
     <!-- Main Content End -->
   </div>
   <!-- Main Container End -->
-
-  <!-- Lightbox -->
-  <div class="lightbox">
-    <div class="lightbox-content">
-      <div class="lightbox-close">&times;</div>
-      <img src="" alt="" onclick="nextItem()" class="lightbox-img">
-      <div class="lightbox-caption">
-        <div class="caption-text"></div>
-        <div class="caption-counter"></div>
-      </div>
-    </div>
-    <div class="lightbox-controls">
-      <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
-      <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
-    </div>
-  </div>
-  <!-- Lightbox End -->
-
   <!-- Plugins -->
   <!-- Template js -->
   <script src="js/script.js"></script>
