@@ -206,7 +206,6 @@ select {
 	white-space: nowrap;
 	border: none;
 	cursor: pointer;
-	margin-top: 12px;
 }
 
 .btn:hover {
@@ -248,8 +247,8 @@ select {
 	border-radius: 50%;
 	border-top: 4px solid transparent;
 	border-bottom: 4px solid transparent;
-	animation: spin 10s linear infinite;
-	-webkit-animation: spin 10s linear infinite;
+	animation: spin 2s linear infinite;
+	-webkit-animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
@@ -546,16 +545,16 @@ select {
 }
 
 .about .about-content .about-text p {
-	font-size: 25px;
+	font-size: 16px;
 	line-height: 25px;
 	color: #020203;
 	margin: 0;
 }
 
 .about .about-content .personal-info {
-	-ms-flex: 0 0 80%;
-	flex: 0 0 80%;
-	max-width: 80%;
+	-ms-flex: 0 0 60%;
+	flex: 0 0 60%;
+	max-width: 60%;
 	margin-top: 40px;
 }
 
@@ -600,7 +599,7 @@ select {
 .about .about-content .skills .skill-item {
 	-ms-flex: 0 0 100%;
 	flex: 0 0 100%;
-	max-width: 100%;
+	max-width: 45%;
 }
 
 .about .about-content .skills .skill-item h5 {
