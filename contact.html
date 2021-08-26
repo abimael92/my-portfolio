@@ -13,6 +13,12 @@
   <link rel="manifest" href="./css/favicon/site.webmanifest">
   <link rel="stylesheet" class="alternate-style" title="red" href="css/skins/red.css" type="text/css">
   <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("demo-form").submit();
+    }
+  </script>
 
 </head>
 
@@ -100,7 +106,7 @@
                 </div>
                 <div class="form-item col-6 padd-15">
                   <div class="form-group">
-                    <input type="email" name="email" class="form-control" placeholder="Email*" required>
+                    <input type="email" name="email" class="form-control" placeholder="Enter your Email*" required>
                   </div>
                 </div>
               </div>
@@ -111,12 +117,11 @@
                   </div>
                 </div>
               </div>
-              <input type="hidden" name="_captcha" value="false">
               <input type="hidden" name="_next" value="https://my-portfolio-rust-sigma.vercel.app/">
               <input type="hidden" name="_autoresponse" value="Thank you!">
               <div class="row">
                 <div class="col-12 padd-15">
-                  <button type="submit" value="Submit" class="btn">Send</button>
+                  <button class="g-recaptcha" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit' type="submit" value="Submit" class="btn">Submit</button>
                 </div>
               </div>
             </form>
