@@ -2,7 +2,7 @@
 
 <h2>Personal Portfolio </h2>
 
-<p>This is built with HTML5, CSS3, JAVASCRIPT. It’s 100% responsive with clean codes.</p>
+<p>This is built with HTML5, CSS3, JAVASCRIPT. </p>
 
 <b>What it includes:</b>
 
