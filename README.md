@@ -1,6 +1,7 @@
 # Personal Portfolio Website HTML5 CSS3 Javascript
 
-<h1>Personal Portfolio </h1>
+<h2>Personal Portfolio </h2>
+
 <p>This is built with HTML5, CSS3, JAVASCRIPT. It’s 100% responsive with clean codes.</p>
 
 <b>What it includes:</b>
